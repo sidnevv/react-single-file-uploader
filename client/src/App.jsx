@@ -20,7 +20,6 @@ const App = () => {
 
     const handleInputClick = (e) => {
         e.preventDefault()
-        console.log(e.target.files)
         if (e.target.files[0]) {
             const payload = new FormData()
             payload.append('file', e.target.files[0])
