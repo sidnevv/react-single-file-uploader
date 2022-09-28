@@ -1,0 +1,14 @@
+{
+  "name": "react-fileupload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+	  "server": "yarn --cwd api dev",
+	  "client": "yarn --cwd client start",
+	  "start": "concurrently \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "concurrently": "^7.4.0"
+  }
+}
